@@ -34,14 +34,8 @@
     "event-metadata"
   ],
   "library": "./main.js",
-  "scripts": {
-    "prepare": "npm run build",
-    "build": "node ./scripts/build.js"
-  },
+  "scripts": {},
   "staticDirs": {},
   "translations": {},
-  "dependencies": {
-    "node-fetch": "^2.6.9",
-    "node-html-parser": "^6.1.5"
-  }
+  "dependencies": {}
 }

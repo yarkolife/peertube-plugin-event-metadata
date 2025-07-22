@@ -1,26 +1,11 @@
 # PeerTube plugin Event Metadata
 
-This plugin for the PeerTube platform gives the option to add event data to a video upload by importing structured event data from an event page URL. The event data is fetched and parsed from JSON+LD linked event metadata or added manually if the event page doesn't contain a linked data meta tag.
+This plugin provides two custom metadata fields for each video:
 
-### Main tab on video upload/edit
+* **Sendeverantwortung**
+* **Имя автора**
 
-Form field:
-
-* Event page URL
-
-### Plugin settings tab on video upload/edit
-
-Form fields:
-
-* Event name
-* Event start date (ISO 8601 date format)
-* Event end date (ISO 8601 date format)
-* Event location (Markdown is supported)
-* Event organizer (Markdown is supported)
-* Event performers (Multiple performers are separated by a , character. Markdown is supported)
-* Super event (Markdown is supported)
-
-https://schema.org/Event
+The values entered for these fields are displayed on the watch page and can be clicked to search for other videos that share the same value.
 
 ### How to use
 
